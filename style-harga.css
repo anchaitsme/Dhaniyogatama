@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+	font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,82,221,1) 49%, rgba(0,212,255,1) 100%);
+}
+nav{
+	color: #fff;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(84,84,176,1) 0%, rgba(2,0,36,1) 99%);
+	display: flex;
+	justify-content: space-between;
+	min-height: 0.5vw;
+	align-items: center;
+	border-bottom: 2px solid aliceblue;
+	padding: 0px 5% 0px 5%;
+	font-size: 1vw;
+  }
+
+nav .left img{
+	width: 10vw;
+	height: 5vw;
+	border-radius: 50%;
+}
+nav a{
+	text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+  
+nav ul li  {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+	display: flex;
+	align-items: center;
+    text-decoration: none;
+    color: #fff;	
+	padding: 0.8vw;
+	border-radius: 10%;
+    font-weight: bold;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	background: #fff;
+    color: navy;
+    transition: .4s;
+}
+.deskripsi{
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(82,82,221,1) 49%, rgba(0,212,255,1) 100%);
+	margin: 1vw;
+	border-radius: 15%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.deskripsi h1{
+	color: #fff;
+	text-align: center;
+	margin-top: 1vw;
+}
+.deskripsi p{
+	color: #fff;
+	text-align: center;
+	margin-top: 1vw;
+	font-size: large;
+}
+.form-floating{
+	text-align: center;
+	margin-top: 3vw;
+	color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 10%;
+
+}
+.form-floating .form-control{
+	text-align: center;
+	background-color: rgb(221, 221, 255);
+	height: 3vw;
+} 
+.btn{
+	margin-top: 10%;
+	background-color: darkblue;
+	color: #fff;
+	height: 3vw;
+	width: 6vw;
+	margin-bottom: 2vw;
+	
+}
+
+.card-body{
+    text-align: center;
+}
+.invoice form{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	
+}
+.list .col-5{
+	background: rgb(59,47,44);
+	background: radial-gradient(circle, rgba(59,47,44,1) 23%, rgba(252,70,107,1) 100%);
+	margin-left: 2vw;
+	border-radius: 1vw;
+	text-decoration: none;
+}
+.list .col-5:hover{
+	transform: scale(1.2);
+}
